@@ -1,0 +1,326 @@
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    right: 0px;
+    background: #212121;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  .menu-item {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .menu-item a:hover::after {
+    width: 0;
+  }
+  nav.active .menu {
+    height: calc(100vh - 10px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid #fcfcfc;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fcfcfc;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+  .hero-content {
+    position: relative;
+  }
+  .hero {
+    height: 80vh;
+  }
+  .container {
+    padding: 0 2rem;
+  }
+  .svg,
+  .skull {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .about-content {
+    height: 100%;
+  }
+  .links {
+    display: flex;
+    position: initial;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .links a:hover {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #000000;
+  }
+  .title,
+  .subtitle {
+    font-size: 3rem;
+  }
+  .text {
+    position: relative;
+    top: 4rem;
+  }
+  .portfolio {
+    margin-top: 3rem;
+    height: 100%;
+  }
+  footer {
+    margin-top: 2rem;
+  }
+  .footer-content {
+    padding: 0;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    right: 0px;
+    background: #212121;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  .menu-item {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .menu-item a:hover::after {
+    width: 0;
+  }
+  nav.active .menu {
+    height: calc(100vh - 10px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid #fcfcfc;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fcfcfc;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+  .hero-content {
+    position: relative;
+  }
+  .hero {
+    height: 80vh;
+  }
+  .container {
+    padding: 0 2rem;
+  }
+  .svg,
+  .skull {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  .about-content {
+    height: 100%;
+  }
+  .links {
+    display: flex;
+    position: initial;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .links a:hover {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #000000;
+  }
+  .title,
+  .subtitle {
+    font-size: 3rem;
+  }
+  .text {
+    position: relative;
+    top: 4rem;
+  }
+  .portfolio {
+    margin-top: 3rem;
+    height: 100%;
+  }
+  footer {
+    margin-top: 2rem;
+  }
+  .footer-content {
+    padding: 0;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    right: 0px;
+    background: #212121;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  .menu-item {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .menu-item a:hover::after {
+    width: 0;
+  }
+  nav.active .menu {
+    height: calc(100vh - 10px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid #fcfcfc;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fcfcfc;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+  .hero-content {
+    position: relative;
+  }
+  .hero {
+    height: 80vh;
+  }
+  .container {
+    padding: 0 2rem;
+  }
+  .svg,
+  .skull {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  .about-content {
+    height: 100%;
+  }
+  .links {
+    display: flex;
+    position: initial;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .links a:hover {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #000000;
+  }
+  .title,
+  .subtitle {
+    font-size: 3rem;
+  }
+  .text {
+    position: relative;
+    top: 4rem;
+  }
+  .portfolio {
+    margin-top: 3rem;
+    height: 100%;
+  }
+  footer {
+    margin-top: 2rem;
+  }
+  .footer-content {
+    padding: 0;
+  }
+}

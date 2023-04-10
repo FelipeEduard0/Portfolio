@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <title>Portfólio - Felipe Eduardo</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav id="nav">
+          <span class="logo">F.Eduardo</span>
+          <ul class="menu" role="menu">
+            <li class="menu-item"><a href="#">Início</a></li>
+            <li class="menu-item"><a href="#about">Sobre</a></li>
+            <li class="menu-item"><a href="#portfolio">Projetos</a></li>
+            <li class="menu-item"><a href="#">Contato</a></li>
+          </ul>
+          <button
+            aria-label="Abrir Menu"
+            id="btn-mobile"
+            aria-haspopup="true"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+            <span id="hamburger"></span>
+          </button>
+        </nav>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="hero-content grid">
+            <article class="text">
+              <h1 class="title">Felipe Eduardo</h1>
+              <h2 class="subtitle">Portfólio</h2>
+              <a href="#" class="resume">Ver Resumo</a>
+            </article>
+            <figure>
+              <img
+                src="./assets/Coding-bro.svg"
+                alt="svg"
+                srcset=""
+                class="svg"
+              />
+            </figure>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <div class="about-content grid">
+            <figure>
+              <img src="./assets/me.jpg" alt="eu" srcset="" class="skull" />
+            </figure>
+            <article class="about-text">
+              <h3 class="section-title">Sobre</h3>
+              <h4 class="section-subtitle">Felipe Eduardo</h4>
+              <h5 class="info">Desenvolvedor Web Front-End</h5>
+              <p class="about-me">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using 'Content
+                here, content here', making it look like readable English.
+              </p>
+              <div class="links">
+                <a href="#"><i class="fa-brands fa-github"></i>Github</a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+          <h3 class="section-title">Projetos</h3>
+          <div class="portfolio-content grid">
+            <article class="card">
+              <h5>Universidade Login</h5>
+              <p>
+                Tela de login de uma universidade, feita em HTML, CSS e
+                JavaScript.
+              </p>
+              <a href="#">Visualizar projeto</a>
+            </article>
+            <article class="card">
+              <h5>Frontend Class</h5>
+              <p>
+                Landing page de frontend, feito em HTML, SASS e
+                JavaScript.
+              </p>
+              <a href="#">Visualizar projeto</a>
+            </article>
+            <article class="card">
+              <h5>DevFlix</h5>
+              <p>Site de filmes utilizando a API do IMDB, feito em ReactJS e CSS.</p>
+              <a href="#">Visualizar projeto</a>
+            </article>
+            <article class="card">
+              <h5>Loja Virtual</h5>
+              <p>Lojinha básica feita em Bootstrap e JavaScript. </p>
+              <a href="#">Visualizar projeto</a>
+            </article>
+          </div>
+        </section>
+        <section class="contact">
+          <h3 class="section-title">Contato</h3>
+          <div class="contact-content">
+            <a href="#" class="c-link">
+              <i class="fa-solid fa-envelope"></i>
+              <h5>Email</h5>
+            </a>
+            <a href="#" class="c-link">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <h5>LinkedIn</h5>
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <h6>Todos os direitos reservados.</h6>
+        <h6>Desenvolvido por F.Eduardo</h6>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
