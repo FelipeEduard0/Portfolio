@@ -18,7 +18,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #8257e6;
+  background-color: #1D9BF0;
   border-radius: 20px;
   border: 1px solid #101013;
 }
@@ -47,7 +47,7 @@ section {
 .section-title {
   font-size: 1.5rem;
   font-weight: 500;
-  color: #8257e6;
+  color: #1D9BF0;
 }
 
 .contact h3,
@@ -121,7 +121,7 @@ nav {
   height: 2px;
   left: 50%;
   position: relative;
-  background: #8257e6;
+  background: #1D9BF0;
   transition: 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -157,12 +157,12 @@ nav {
   font-size: 5rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: #8257e6;
+  color: #1D9BF0;
 }
 
 .resume {
   background-color: #000000;
-  border: 1px solid #8257e6;
+  border: 1px solid #1D9BF0;
   padding: 1rem 1rem 1rem 1rem;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -174,7 +174,7 @@ nav {
 }
 
 .resume:hover {
-  background-color: #8257e6;
+  background-color: #1D9BF0;
   padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -220,7 +220,7 @@ nav {
 
 .links a {
   background-color: #000000;
-  border: 1px solid #8257e6;
+  border: 1px solid #1D9BF0;
   padding: 1rem 1rem 1rem 1rem;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -235,7 +235,7 @@ nav {
 }
 
 .links a:hover {
-  background-color: #8257e6;
+  background-color: #1D9BF0;
   padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -247,7 +247,7 @@ nav {
 
 .card {
   background-color: #121214;
-  border: 1px solid #8257e6;
+  border: 1px solid #1D9BF0;
   padding: 2rem;
   text-align: start;
   height: 100%;
@@ -271,7 +271,7 @@ nav {
 }
 
 .card a:hover {
-  color: #8257e6;
+  color: #1D9BF0;
 }
 
 footer {
@@ -314,8 +314,8 @@ footer {
   font-size: 2rem;
   border-radius: 100%;
   background-color: #101013;
-  border: 2px solid #8257e6;
-  color: #8257e6;
+  border: 2px solid #1D9BF0;
+  color: #1D9BF0;
   padding: 1rem;
 }
 
