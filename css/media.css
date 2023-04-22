@@ -5,7 +5,7 @@
     width: 100%;
     top: 60px;
     right: 0px;
-    background: #343353;
+    background: #10131C;
     transition: 0.6s;
     z-index: 1000;
     height: 0px;
@@ -59,11 +59,14 @@
     transform: rotate(-135deg);
     top: -7px;
   }
+  section,nav {
+    padding: 0 2rem;
+  }
   .hero-content {
     position: relative;
   }
   .hero {
-    height: 80vh;
+    height: 100vh;
   }
   .container {
     padding: 0 2rem;
@@ -79,13 +82,9 @@
   }
   .links {
     display: flex;
-    position: initial;
+    position: inherit;
     margin-top: 2rem;
     margin-bottom: 1rem;
-  }
-  .links a:hover {
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: #000000;
   }
   .title,
   .subtitle {
@@ -114,7 +113,7 @@
     width: 100%;
     top: 60px;
     right: 0px;
-    background: #343353;
+    background: #10131C;
     transition: 0.6s;
     z-index: 1000;
     height: 0px;
@@ -168,11 +167,14 @@
     transform: rotate(-135deg);
     top: -7px;
   }
+  section,nav {
+    padding: 0 2rem;
+  }
   .hero-content {
     position: relative;
   }
   .hero {
-    height: 80vh;
+    height: 100vh;
   }
   .container {
     padding: 0 2rem;
@@ -191,10 +193,6 @@
     position: initial;
     margin-top: 2rem;
     margin-bottom: 1rem;
-  }
-  .links a:hover {
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: #000000;
   }
   .title,
   .subtitle {
@@ -223,7 +221,7 @@
     width: 100%;
     top: 60px;
     right: 0px;
-    background: #343353;
+    background: #10131C;
     transition: 0.6s;
     z-index: 1000;
     height: 0px;
@@ -277,11 +275,14 @@
     transform: rotate(-135deg);
     top: -7px;
   }
+  section,nav {
+    padding: 0 2rem;
+  }
   .hero-content {
     position: relative;
   }
   .hero {
-    height: 80vh;
+    height: 100vh;
   }
   .container {
     padding: 0 2rem;
